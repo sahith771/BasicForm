@@ -1,0 +1,72 @@
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 3%;
+    text-align: center;
+}
+
+
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin: 1%;
+}
+
+.user-details .input-box .details{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1%;
+}
+
+form .gender-details .category{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.ttf');
+}
